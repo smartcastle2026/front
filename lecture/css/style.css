@@ -1,0 +1,40 @@
+img {
+  height: 15px;
+  width: 15px;
+}
+
+a {
+  color: rgb(203, 19, 19);
+  font-size: 15px;
+}
+
+body {
+  background-color: rgba(69, 234, 57, 0.801);
+  color: rgba(35, 126, 216, 0.877);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
+
+section {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(17, 212, 234);
+}
+
+#about {
+  border: 5px solid rgb(20, 28, 145);
+  background-color: rgb(228, 86, 86);
+  color: white;
+}
+
+.whatsapp-link {
+  color: green;
+}
+
+#whatsapp-logo {
+  height: 20px;
+  width: 20px;
+}
