@@ -10,18 +10,34 @@
         height: 15px;
         width: 15px;
       }
+
+      a {
+        color: rgb(203, 19, 19);
+      }
+
+      body {
+        background-color: rgba(69, 234, 57, 0.801);
+        color: rgba(35, 126, 216, 0.877);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin: 0px;
+      }
+
+      section {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 3px solid rgb(17, 212, 234);
+      }
+
+      #about {
+        border: 5px solid rgb(20, 28, 145);
+      }
     </style>
   </head>
   <!-- <body bgcolor="skyblue" text="white"> -->
-  <body
-    style="
-      background-color: rgba(69, 234, 57, 0.801);
-      color: rgba(35, 126, 216, 0.877);
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      margin: 0px;
-    "
-  >
+  <body>
     <header>
       <a href="/index.html">Главная</a>
       <a href="mailto:smart.castle.school@gmail.com">Написать нам</a>
@@ -30,7 +46,7 @@
     </header>
     <main>
       <h1>Разделы страницы</h1>
-      <section>
+      <section id="about">
         <h2>О нас</h2>
         <p>
           <!-- p означает параграф, то есть текстовый блок -->
@@ -66,15 +82,7 @@
         </table>
       </section>
 
-      <section
-        style="
-          background-color: white;
-          padding: 10px;
-          margin: 10px;
-          border-radius: 10px;
-          border: 3px solid rgb(17, 212, 234);
-        "
-      >
+      <section>
         <h2>Контакты</h2>
         <a href="http://wa.me/77771234567">
           <img
